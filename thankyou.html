@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+    <title>شكراً لطلبك</title>
+    <base href="../templates/temp_arabia_2/.">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <style type="text/css">
+        body {
+            margin-top: 40px;
+            background: #ffffff;
+        }
+    </style>
+
+    <script>
+
+        function findGetParameter(parameterName) {
+            var result = null,
+                tmp = [];
+            location.search
+                .substr(1)
+                .split("&")
+                .forEach(function (item) {
+                    tmp = item.split("=");
+                    if (tmp[0] === parameterName) result = decodeURIComponent(tmp[1]);
+                });
+            return result;
+        }
+        let cid = findGetParameter('cid');
+        console.log(cid);
+        fetch("https://428bh.bemobtrk.com/conversion.gif?cid="+ cid +"&payout=OPTIONAL&txid=OPTIONAL&status=OPTIONAL")
+
+        if (cid) {
+            (function(E,n,G,A,g,Y,a){E['EngLandingObject']=g;E[g]=E[g]||function(){ (E[g].q=E[g].q||[]).push(arguments)},E[g].l=1*new Date();Y=n.createElement(G), a=n.getElementsByTagName(G)[0];Y.async=1;Y.src=A;a.parentNode.insertBefore(Y,a)})(window,document,'script','//widget.engageya.com/eng_landing.js','__engLanding');__engLanding('createPixel',{pixelid:194633,dtms:0});
+        }
+
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-780433345"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-780433345');
+        gtag('event', 'conversion', {'send_to': 'AW-780433345/y5iTCNXg3JoBEMHvkfQC'});
+    </script>
+</head>
+<body>
+<div class="container" style="margin: 0 auto;">
+    <h4 class="alert-heading" style="text-align: center;margin-bottom: 42px">
+        <i class="fa fa-check"></i>
+        شكراً لك تم تسجيل طلبك بنجاح
+    </h4>
+    <div class="row">
+        <div class="col-md-8 col-sm-12 col-xs-12">
+            <h4 style="text-align: right;margin-bottom: 42px; font-size: 19px;font-weight: normal;">
+                شكرا لك، Avanti كورس  الخاص بك في طريقه إليك
+                <br>
+                (توقع من يومين لثلاث أيام عمل للتوصيل)
+                <br>
+                سيتصل بك احد المتخصصين من الفريق لاعطاء الارشادات و النصائح الطبية للاستخدام
+            </h4>
+        </div>
+
+        <div class="col-md-4 col-sm-12 col-xs-12 text-center">
+            <img src="./images/product.jpg" alt="" width="300">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+
+            <div class="row" style="margin-bottom: 27px;">
+                <h4 style="text-align: center;margin-bottom: 42px; font-size: 19px;font-weight: normal;">
+                    اليك اهم ٣ نصائح للحفاظ علي صحتك الجسدية والنفسية:
+                </h4>
+                <div class="col-md-12" style="text-align: center;margin-bottom: 27px;">
+                    <img src="images/thank1.jpeg" alt="" width="300">
+                </div>
+
+                <div class="col-md-12" style="text-align: center;margin-bottom: 27px;">
+                    <img src="images/thank2.jpeg" alt="" width="300">
+                </div>
+
+                <div class="col-md-12" style="text-align: center;margin-bottom: 27px;">
+                    <img src="images/thank3.jpeg" alt="" width="300">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

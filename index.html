@@ -1,0 +1,486 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<script src="js/jquery.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Maca</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="main container-fluid text-center">
+        <div class="row justify-content-between" id="main-section">
+            <div class="col-sm-12 px-0">
+                <div class=" main-color1">
+                    <div class="main-container">
+                        <div class="main-contains">
+                            <h1 class="main-head">اقوي علاج طبيعي لعلاج الضعف واستعادة القوة
+                                <ul class="main-head1 list-unstyled">
+                                    <li class="list"><i class="fa fa-check"></i>يعـــــــالــــــج
+                                        مـــشــكــــــــلــــة الانــــــــــــتــــصــــاب و الــــــقــــذف مـــــن
+                                        جــــــذورهـــــا نــــــهائيـــــــا</li>
+                                    <li class="list"><i class="fa fa-check"></i>يـــــسـاعــد عــــــلـي صـلابـة
+                                        الانـتــصــاب لـــمـدة طويـــلـة 10 اضـــعـاف الـوقت الاصـلـي
+                                    </li>
+                                    <li class="list"><i class="fa fa-check"></i>مكـــــــــونات طبيـــــعيـــــة 100%
+                                        لحمــــــــايتك من خطــــــــر المنـــــــــشطات الــجنـــسيــــــــة</li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class=" main-color2">
+                    <div class="main-container1">
+                        <div class="main-contains">
+                            <div class="main-last">خصم <span>%33 </span><span>لفترة محدودة</span></div>
+                            <div class="text-center">
+                                <button class="btn-main btn rush" onClick="requestForm()"> أطلب الآن</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-t-2 container-fluid text-center">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="main-t-2-head">أفانتي يرفع القدرة الذكورية إلي اقصي حد
+                </div>
+            </div>
+            <!-- <div class="main-t-2-hr"></div> -->
+            <div class="row">
+                <!-- <div class="col-md-5">
+                            <div class="main-t-2-middle">
+                                <img src="images/main.jpeg" class="img-fluid" alt="product" style="margin-bottom: 20px;">
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <ul class="main-head1 main-head1-mid list-unstyled">
+                                <li class="list list-mid"><i class="fa fa-check"></i><strong><u>الخولنجان</u></strong><br>يساعد في ضخ الدم غلي العضو و تحسين عدد وجودة الحيوانات المنوية
+                                </li>
+                                <li class="list list-mid"><i class="fa fa-check"></i><strong><u>زيت جنين القمح</u></strong><br>لتحسين طاقة العضلات العضو مما يزيد من التحكم
+                                </li>
+                                <li class="list list-mid"><i class="fa fa-check"></i><strong><u>صمغ الشمع</u></strong><br>تعمل علي وزن هرمونات الجسم و تنشيط الغدد الجنسية
+                                </li>
+                                <li class="list list-mid"><i class="fa fa-check"></i><strong><u>الجنسنج</u></strong><br>تحفيز هرمون التستيرون مما ينعكس تحسين الانتصاب و زيادة صلابته بشكل هائل
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                <div class="col-xs-12">
+                    <img src="./images/first.jpeg" style="max-width:100%">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="call-main-t- call-block container-fluid text-center">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-4 px-0">
+                    <div class="call-head">
+                        تمتع بصلابة انتصاب ثابتة<br>
+                        <span> تدوم حتي نهاية العلاقة</span>
+                    </div>
+                </div>
+                <div class="col-5 pt-4">
+                    <button class="btn-main btn btn-main-2 rush" onClick="requestForm()">أطلب الآن</button>
+                    <div class="main-last1">
+                        <img src="images/block1.3.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="row">
+            <!-- <div class="col-12">
+                    <div class="main-temp-head">
+                            لماذا افانتي هو الافضل لحل مشكلة الضعف الجنسي ؟
+                    </div>
+                    <div class="main-t-2-hr main-temp-hr"></div>
+                </div>
+                <div class="col-3">
+                    <div class="main-temp-img">
+                        <img src="images/block3.2.png" class="img-fluid" id="main-temp-img" alt="">
+                    </div>
+                    <p class="main-temp-p">
+                            علاج جذري للقضاء علي الضعف نهائيا <br> و ليس حل مؤقت
+                    </p>
+                </div>
+                <div class="col-3">
+                    <div class="main-temp-img1">
+                        <img src="images/block3.5.png" class="img-fluid" id="block3-img1" alt="">
+                    </div>
+                    <p class="main-temp-p">
+                            يساعد علي صلابة الانتصاب لمدة طويلة  <br> 10 اضعاف الوقت الاصلي
+                    </p>
+                </div>
+                <div class="col-3">
+                    <div class="main-temp-img4">
+                        <img src="images/block3.1.png" class="img-fluid" id="block3-img2" alt="">
+                    </div>
+                    <p class="main-temp-p">
+                            مكونات طبيعية 100<br> لحمايتك من خطر المنشطات الجنسية
+                    </p>
+                </div> -->
+
+            <div class="col-xs-12" style="width:100%">
+                <img src="./images/mix.jpeg" style="max-width:100%;width:100%">
+            </div>
+        </div>
+    </section>
+    <section class="main-temp container-fluid text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="main-t-2-hr main-temp-hr">
+                    </div>
+                </div>
+                <div class="col-md-6 text-right ul-container">
+                    <div style="padding:20px;">
+                        <img src="./images/gif1.gif" style="max-width:100%;width:100%">
+                        <label style="font-weight:bold;margin-top:10px">استعادة بنية الجلد</label>
+                        <ul style="padding-right: 25px;">
+                            <li>استرخاء عضلات الوجه</li>
+                            <li>تنعيم التجاعيد من الداخل</li>
+                            <li>تركيب الكولاجين والإيلاستين من البشرة</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-md-6 text-right ul-container">
+                    <div style="padding:20px;">
+                        <img src="./images/gif2.gif" style="max-width:100%;width:100%;height: 375px;">
+                        <label style="font-weight:bold;margin-top:10px">استعادة بنية الجلد</label>
+                        <ul style="padding-right: 25px;">
+                            <li>استرخاء عضلات الوجه</li>
+                            <li>تنعيم التجاعيد من الداخل</li>
+                            <li>تركيب الكولاجين والإيلاستين من البشرة</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-temp container-fluid text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <!-- <div class="col-3">
+                    <div class="main-temp-img4">
+                        <img src="images/block3.5.png" class="img-fluid" id="block3-img4" alt="">
+                    </div>
+                    <p class="main-temp-p">
+                        منشط عام للجسم ويزيد من <br> الشهوة والرغبة عند الرجال
+                    </p>
+                </div> -->
+                <div class="col-12">
+                    <div class="main-temp-head">
+                        طريقة الاستخدام
+                    </div>
+                    <div class="main-t-2-hr main-temp-hr">
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <img src="./images/usage.jpeg" style="max-width:100%;width:100%">
+                    <!-- <div class="main-temp-p2">
+                            تناول معلقة صغيرة كل صباح قبل الفطار
+                    </div> -->
+                </div>
+                <!-- <div class="col-4">
+                    <div class="main-temp-p2">
+                        تحسن ملحوظ فى قدرتك الجنسيه مع اول عبوه
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="main-temp-p2">
+                        كورس علاجي لحل المشكله وليس حل مؤقت لاعراضها
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section class="call-main-t- call-block container-fluid text-center">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-5 px-0">
+                    <div class="call-head1">
+                        أفانتي مرخص و مسجل من وزارة الصحة
+                    </div>
+                </div>
+                <div class="col-5 pt-4">
+                    <button class="btn-main btn btn-main-2 rush" onClick="requestForm()">أطلب الآن</button>
+                    <div class="main-last1">
+                        <img src="images/block1.3.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main-t-2 container-fluid text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <div class="main-t-2-head">ابدء حياة جديدة بدون أي مشاكل جنسية
+                    </div>
+                    <div class="main-t-2-hr"></div>
+                    <div class="main-t-2-middle" style=" max-width: 50%; margin: auto;">
+                        <img src="images/last.jpeg" class="img-fluid" alt="product">
+                    </div>
+                    <div class="main-t-2-head">خصم 33%
+                        السعر بعد الخصم
+                        960 جنيه
+                        بدلاً من السعر الأصلي 1150 جنيه
+                        <br>
+
+                        الشحن مجاناً لجميع المحافظات
+
+
+                        كما يوجد ضمان استرجاع فى حالة عدم رضائك عن النتائج خلال 30 يوم
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
+        form label {
+            color: white;
+            font-size: 20px;
+        }
+
+        .counter-row .col-3 {
+            border-radius: 5px 5px 5px 5px;
+            color: white;
+        }
+
+        .counter-row .col-3 div{
+            background-color: #0D7174 !important;
+        }
+
+        .counter-span {
+            font-size: 25px;
+        }
+
+        .w3-light-grey {
+            width: 100%;
+            background-color: #fc5a5a;
+            direction: ltr;
+        }
+
+        #myBar {
+            width: 1%;
+            height: 30px;
+            background-color: #fcdbdb;
+            direction: ltr;
+        }
+
+        .inventory {
+            font-size: 23px;
+        }
+
+        #inventory {
+            color: #fc5a5a;
+            font-weight: bold;
+        }
+    </style>
+
+    <div id="counter" class="main-temp container-fluid text-center">
+        <div class="container">
+            <div class="row justify-content-center mb-2">
+                <div class="col-md-4">
+                    <span class="inventory">
+                        اسرع ! فقط <span id="inventory">553</span> عبوة في المخزن</span>
+                    <div class="w3-light-grey">
+                        <div id="myBar" class="w3-container w3-green" style="height:24px;width:2%"></div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row justify-content-center counter-row">
+                <div class="col-3">
+                    <div>
+                    <span class="counter-span" id="sec">00</span>
+                    <br>
+                    <span>ثانية</span>
+                </div>
+                </div>
+                <div class="col-3">
+                        <div>
+                    <span class="counter-span" id="min">00</span>
+                    <br>
+                    <span>دقيقة</span>
+                </div>
+                </div>
+                <div class="col-3">
+                        <div>
+                    <span class="counter-span" id="hour">00 </span>
+                    <br>
+                    <span>ساعة</span>
+                </div>
+                </div>
+                <div class="col-3">
+                        <div>
+                    <span class="counter-span" id="day">00</span>
+                    <br>
+                    <span>يوم</span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="main-temp container-fluid text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" style="margin: auto;
+        margin-top: 20px; margin-bottom: 60px;">
+                    <form class="mod form" id="mod"
+                        style="  padding:20px; background-color: #0D7174 !important; border-radius: 5px 20px 5px;"
+                        method="post" onsubmit=" return validateForm(event);"
+                        action="https://sehhaegypt.info/products/request-product">
+                        <div class="text-center">
+                            <h1
+                                style="padding:20px; font-size: x-large; background: cornsilk; border-radius: 5px 20px 5px;">
+                                الان ، تمتع بصلابة في الانتصاب و طول مدة تساوي 10 اضعاف الوقت الاصلي
+
+                                بعد طلب أفانتي. </h1>
+                        </div>
+                        <div class="contentinp" style="max-width:unset !important">
+                            <div class="form-group input">
+                                <label class="float-right" for="name">الاسم الثلاثي</label>
+                                <input type="text" name="name" id="name" class="cinp  user form-control" required="">
+                            </div>
+                            <div class="form-group input">
+                                <label class="float-right" for="address">العنوان بالتفصيل </label>
+                                <input type="text" name="address" id="address" class="cinp  user form-control"
+                                    required="">
+                            </div>
+                            <div class="form-group input">
+                                <label class="float-right" for="phone">الهاتف </label>
+                                <input type="number" id="Phone" name="phone" class="cinp  phone form-control"
+                                    pattern="[٠-٩0-9]{11}" title="أدخل رقم هاتفك" required="">
+                                <input type="hidden" name="product_slug" value="{{{ product_slug }}}">
+                                <input type="hidden" name="sale_page_slug" value="{{{ sale_page_slug }}}">
+                            </div>
+                            <div class="form-group input">
+                                <label class="float-right" for="phone2">رقم هاتف اضافي</label>
+                                <input type="number" id="phone2" name="phone2" class="cinp  phone form-control"
+                                    pattern="[٠-٩0-9]{11}" title="أدخل رقم هاتفك">
+                            </div>
+                            <div class="form-group input">
+                                <label class="float-right" for="call">الميعاد المناسب للاتصال</label>
+                                <input type="number" max="12" min="1" pattern="[٠-٩0-9]{2}" name="call" id="call"
+                                    class="cinp  user form-control" required="">
+                            </div>
+
+                            <div class="pprisee"
+                                style="max-width:unset !important;color: black;text-align: center;font-size: 25px;padding: 10px;font-weight: 900;/* display: inline-block; */">
+                                {{{ total_price }}}
+                            </div>
+                            <input class="btn-block1 btn btn-block2 rush btn-main btn rush" type="submit"
+                                style="padding:15px;margin:auto;display:block;max-width:unset !important;font-size: 41px;"
+                                value="أطـلـب">
+                            <div class="s-vs10"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.js"></script>
+
+
+    <script>
+        let started = 0;
+
+        $(function () {
+            var oTop = $('#counter').offset().top - window.innerHeight;
+            $(window).scroll(function () {
+                var pTop = $(window).scrollTop();
+                console.log(pTop + ' - ' + oTop); //just for your debugging
+                if (pTop > oTop && started == 0) {
+                    started = 1;
+                    move();
+                }
+            });
+        });
+
+
+        var inventory = [553, 423, 390, 218, 212, 120, 80, 30];
+
+        function move() {
+            var elem = document.getElementById("myBar");
+            var invetorySpan = document.getElementById('inventory');
+
+            var width = 1;
+            var id = setInterval(frame, 600);
+            var inventoryInterval;
+
+            function frame() {
+                if (width >= 40) {
+                    clearInterval(id);
+                    inventoryInterval = setInterval(decreaseInventory, 1000)
+                } else {
+                    width++;
+                    elem.style.width = width + '%';
+                    invetorySpan.innerText = inventory[0]
+                }
+            }
+
+            function decreaseInventory() {
+                if (width >= 80) {
+                    clearInterval(inventoryInterval);
+                } else {
+                    if (width % 10 == 0)
+                        invetorySpan.innerText = inventory[width / 10];
+
+                    width++;
+                    elem.style.width = width + '%';
+                }
+            }
+        }
+        Date.prototype.addHours = function (h) {
+            this.setHours(this.getHours() + h);
+            return this;
+        }
+        var countDownDate = new Date().addHours(15).getTime();
+        var x = setInterval(function () {
+
+            var now = new Date().getTime();
+
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("sec").innerHTML = seconds;
+            document.getElementById("min").innerHTML = minutes;
+            document.getElementById("hour").innerHTML = hours;
+            document.getElementById("day").innerHTML = days;
+
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("counter").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+
+    <script>
+        function requestForm() {
+            $('html, body').animate({
+                scrollTop: $("#mod").offset().top
+            }, 1000);
+        }
+    </script>
+</body>
+
+</html>
