@@ -72,9 +72,165 @@
                             </ul>
                         </div>
                     </div> -->
-                <div class="col-xs-12">
-                    <img src="./images/first.png" style="max-width:100%">
+                <style>
+                    .ava-features .col-12 {
+                        background-color: black;
+                        padding: 12px;
+                        border-radius: 67px;
+                        margin-bottom: 10px;
+                        color: white;
+                        text-align: right;
+                        display: flex
+                    }
+
+                    .ava-features .col-12 p {
+                        margin: 0 !important;
+                        padding: 0 !important;
+                    }
+
+                    .ava-feature-right {
+                        margin-right: -20px;
+                    }
+
+                    .ava-feature-left {
+                        margin-right: 20px;
+                    }
+
+                    .img-feature {
+                        max-width: 50px;
+                        max-width: 65px;
+                        border-radius: 50%;
+                        box-shadow: 0px 0px 8px 5px #888888;
+                        height: 85px;
+                        max-width: 85px;
+                    }
+
+                    .img-container {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-left: 20px;
+                    }
+
+                    .feature-content {
+                        width: 100%;
+                        display: flex;
+                        margin-right: 45px;
+                        flex-direction: column;
+                        text-align: right;
+                    }
+
+
+                    .col-lg-4 {
+                        max-width: 33.33%;
+                    }
+
+
+                    @media (max-width:944px) {
+                        .ava-feature-right {
+                            margin-right: 0px;
+                        }
+
+                        .ava-feature-left {
+                            margin-right: 0px;
+                        }
+
+                        .col-lg-4 {
+                            max-width: 100%;
+                        }
+
+                        .img-center{
+                            max-width: 330px;
+                        }
+
+                        .ava-last .col-12 {
+                            flex-direction: row-reverse;
+                        }
+                    }
+                </style>
+                <div class="col-lg-4">
+                    <div class="row ava-features">
+                        <div class="col-12" style="background-color:#32364e;">
+                            <div class="feature-content">
+                                <h3>dasdsa</h3>
+                                <p>dsadsadsadas</p>
+                                <p>dsadsadsadas</p>
+                                <p>dsadsadsadas</p>
+                            </div>
+                            <div class="img-container">
+                                <img src="images/last.jpeg" class="img-feature" alt="product">
+                            </div>
+                        </div>
+                        <div class="col-12 ava-feature-right" style="background-color:#36537a;">
+                            <div class="feature-content">
+                                <h3>dasdsa</h3>
+                                <p>dsadsadsadas</p>
+                                <p>dsadsadsadas</p>
+                                <p>dsadsadsadas</p>
+                            </div>
+                            <div class="img-container">
+                                <img src="images/last.jpeg" class="img-feature" alt="product">
+                            </div>
+                        </div>
+                        <div class="col-12" style="background-color:#5d7494;">
+                            <div class="feature-content">
+                                <h3>dasdsa</h3>
+                                <p>dsadsadsadas</p>
+                                <p>dsadsadsadas</p>
+                                <p>dsadsadsadas</p>
+                            </div>
+                            <div class="img-container">
+                                <img src="images/last.jpeg" class="img-feature" alt="product">
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-lg-4" style=" margin: auto;">
+                    <img src="images/last.jpeg" class="img-fluid img-center" alt="product">
+                </div>
+                <div class="col-lg-4">
+                    <div class="row ava-features ava-last">
+                        <div class="col-12" style="background-color: #92B2A7">
+                            <div class="img-container">
+                                <img src="images/last.jpeg" class="img-feature" alt="product">
+                            </div>
+                            <div class="feature-content">
+                                <h3>dasdsa</h3>
+                                <p>dsadsadsadas</p>
+                                <p>dsadsadsadas</p>
+                                <p>dsadsadsadas</p>
+                            </div>
+
+                        </div>
+                        <div class="col-12 ava-feature-left" style="background-color: #5DAA98">
+                            <div class="img-container">
+                                <img src="images/last.jpeg" class="img-feature" alt="product">
+                            </div>
+                            <div class="feature-content">
+                                <h3>dasdsa</h3>
+                                <p>dsadsadsadas</p>
+                                <p>dsadsadsadas</p>
+                                <p>dsadsadsadas</p>
+                            </div>
+
+                        </div>
+                        <div class="col-12" style="background-color: #00978C">
+                            <div class="img-container">
+                                <img src="images/last.jpeg" class="img-feature" alt="product">
+                            </div>
+                            <div class="feature-content">
+                                <h3>dasdsa</h3>
+                                <p>dsadsadsadas</p>
+                                <p>dsadsadsadas</p>
+                                <p>dsadsadsadas</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-xs-12">
+                    <img src="./images/first.png" style="max-width:100%">
+                </div> -->
             </div>
         </div>
     </section>
@@ -255,7 +411,7 @@
             font-size: 20px;
         }
 
-        .counter-row .col-3 div{
+        .counter-row .col-3 div {
             color: white;
             border-radius: 5px 5px 5px 5px;
             background-color: #0D7174 !important;
@@ -303,31 +459,31 @@
             <div class="row justify-content-center counter-row">
                 <div class="col-3 col-lg-1">
                     <div>
-                    <span class="counter-span" id="sec">00</span>
-                    <br>
-                    <span>ثانية</span>
-                </div>
-                </div>
-                <div class="col-3 col-lg-1">
-                        <div>
-                    <span class="counter-span" id="min">00</span>
-                    <br>
-                    <span>دقيقة</span>
-                </div>
+                        <span class="counter-span" id="sec">00</span>
+                        <br>
+                        <span>ثانية</span>
+                    </div>
                 </div>
                 <div class="col-3 col-lg-1">
-                        <div>
-                    <span class="counter-span" id="hour">00 </span>
-                    <br>
-                    <span>ساعة</span>
-                </div>
+                    <div>
+                        <span class="counter-span" id="min">00</span>
+                        <br>
+                        <span>دقيقة</span>
+                    </div>
                 </div>
                 <div class="col-3 col-lg-1">
-                        <div>
-                    <span class="counter-span" id="day">00</span>
-                    <br>
-                    <span>يوم</span>
+                    <div>
+                        <span class="counter-span" id="hour">00 </span>
+                        <br>
+                        <span>ساعة</span>
+                    </div>
                 </div>
+                <div class="col-3 col-lg-1">
+                    <div>
+                        <span class="counter-span" id="day">00</span>
+                        <br>
+                        <span>يوم</span>
+                    </div>
                 </div>
             </div>
         </div>
