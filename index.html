@@ -15,7 +15,7 @@
 <body>
     <section class="main container-fluid text-center">
         <div class="row justify-content-between" id="main-section">
-            <div class="col-sm-12 px-0">
+            <div class="col-sm-8">
                 <div class=" main-color1">
                     <div class="main-container">
                         <div class="main-contains">
@@ -43,6 +43,12 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-sm-4" style="display: flex;
+            flex-direction: column;
+            justify-content: center;    margin-bottom: 20px;">
+                <img src="images/last.jpeg" class="header-img" alt="product" style="    width: 100%;
+                ">
             </div>
         </div>
     </section>
@@ -88,13 +94,13 @@
                         padding: 0 !important;
                     }
 
-                    .ava-feature-right {
+                    /* .ava-feature-right {
                         margin-right: -20px;
-                    }
+                    } */
 
-                    .ava-feature-left {
+                    /* .ava-feature-left {
                         margin-right: 20px;
-                    }
+                    } */
 
                     .img-feature {
                         max-width: 50px;
@@ -115,18 +121,40 @@
                     .feature-content {
                         width: 100%;
                         display: flex;
-                        margin-right: 45px;
+                        margin-right: 20px;
                         flex-direction: column;
                         text-align: right;
                     }
 
 
-                    .col-lg-4 {
+                    /* .col-lg-4 {
                         max-width: 33.33%;
-                    }
+                    } */
+                    .feature-content h3{
+                                margin:0;
+                        }
 
+                        .ava-features-right .img-container{
+                            margin:0;
+                        }
+                        @media (max-width:991px) {
+                        .ava-feature-right  .feature-content{
+                            margin-right: 20px;
+                        }
+                        .ava-features .col-12 {
+    padding: 9px;
+}
+                    .ava-features-left .img-container{
+                            margin-left:10px;
+                        }
 
-                    @media (max-width:944px) {
+                          .feature-content p{
+                                font-size:16px;
+                        }
+                        .feature-content h3{
+                                font-size:16px;
+                        }
+
                         .ava-feature-right {
                             margin-right: 0px;
                         }
@@ -134,50 +162,167 @@
                         .ava-feature-left {
                             margin-right: 0px;
                         }
+                        .ava-feature-left  .feature-content{
+                            margin-right: 0;
+                        }
 
-                        .col-lg-4 {
+                             .img-feature {
+                        height: 55px;
+                        max-width: 55px;
+                    }
+
+                        /* .col-lg-4 {
                             max-width: 100%;
-                        }
+                        } */
 
-                        .img-center{
+                        /* .img-center{
                             max-width: 330px;
-                        }
+                        } */
 
-                        .ava-last .col-12 {
+                        /* .ava-last .col-12 {
                             flex-direction: row-reverse;
+                        } */
+                    }
+                    @media (max-width:800px) {
+                        .feature-content p{
+                                font-size:14px;
+                        }
+                        .ava-features .col-12 {
+    padding: 8px;
+}
+                        .ava-features-left .img-container{
+                            margin-left:8px;
+                        }
+                        .feature-content h3{
+                                font-size:14px;
+                        }
+                        .img-feature {
+                        height: 45px;
+                        max-width: 45px;
+                    }
+                    
+                        .ava-feature-right  .feature-content{
+                            margin-right: 10px;
                         }
                     }
+                    @media (max-width:700px) {
+                        .feature-content p{
+                                font-size:11px;
+                        }
+                        .ava-features .col-12 {
+    padding: 6px;
+}
+                        .ava-features-left .img-container{
+                            margin-left:5px;
+                        }
+                        .feature-content h3{
+                                font-size:11px;
+                        }
+                    
+                        .ava-feature-right  .feature-content{
+                            margin-right: 8px;
+                        }
+                        .img-feature {
+                        height: 35px;
+                        max-width: 35px;
+                    }
+                    }
+
+                       @media (max-width:500px) {
+                        .feature-content p{
+                                font-size:9px;
+                        }
+                        .ava-features .col-12 {
+    padding: 5px;
+}
+                        .ava-features-left .img-container{
+                            margin-left:5px;
+                        }
+                        .feature-content h3{
+                                font-size:9px;
+                        }
+                        .ava-feature-right  .feature-content{
+                            margin-right: 7px;
+                        }
+                        .img-feature {
+                        height: 28px;
+                        max-width: 28px;
+                    }
+                    }
+
+                    h3{
+                        font-weight: bold;
+                    }
+
+                       @media (max-width:400px) {
+                        .feature-content p{
+                                font-size:7px;
+                        }
+                        .ava-features .col-12 {
+    padding: 3px;
+}
+                        .feature-content h3{
+                                font-size:7px;
+                        }
+                        .ava-features-left .img-container{
+                            margin-left:3px;
+                        }
+                        .ava-feature-right  .feature-content{
+                            margin-right: 5px;
+                        }
+                        .img-feature {
+                        height: 25px;
+                        max-width: 25px;
+                    }
+                    }
+
+                      @media (max-width:350px) {
+                        .feature-content p{
+                                font-size:7px;
+                        }
+                        .feature-content h3{
+                                font-size:7px;
+                        }
+                        .ava-features-left .img-container{
+                            margin-left:1px;
+                        }
+                        .ava-feature-right  .feature-content{
+                            margin-right: 8px;
+                        }
+                        .img-feature {
+                        height: 25px;
+                        max-width: 25px;
+                    }
+                    }
+
+                   
                 </style>
-                <div class="col-lg-4">
-                    <div class="row ava-features">
-                        <div class="col-12" style="background-color:#32364e;">
+                <div class="col-4">
+                    <div class="row ava-features ava-features-right">
+                        <div class="col-12 ava-feature-right" style="background-color:#32364e;">
                             <div class="feature-content">
                                 <h3>dasdsa</h3>
-                                <p>dsadsadsadas</p>
-                                <p>dsadsadsadas</p>
-                                <p>dsadsadsadas</p>
+                                <p>تمتع بالجهد العالى للكهرباء النتجة للماء العالية</p>
                             </div>
                             <div class="img-container">
                                 <img src="images/last.jpeg" class="img-feature" alt="product">
                             </div>
                         </div>
-                        <div class="col-12 ava-feature-right" style="background-color:#36537a;">
+                        <div class="col-12 ava-feature-right" style="margin-right: -5%;background-color:#36537a;">
                             <div class="feature-content">
                                 <h3>dasdsa</h3>
-                                <p>dsadsadsadas</p>
-                                <p>dsadsadsadas</p>
-                                <p>dsadsadsadas</p>
+                                <p>تمتع بالجهد العالى للكهرباء النتجة للماء العالية</p>
+
                             </div>
                             <div class="img-container">
                                 <img src="images/last.jpeg" class="img-feature" alt="product">
                             </div>
                         </div>
-                        <div class="col-12" style="background-color:#5d7494;">
+                        <div class="col-12 ava-feature-right" style="background-color:#5d7494;">
                             <div class="feature-content">
                                 <h3>dasdsa</h3>
-                                <p>dsadsadsadas</p>
-                                <p>dsadsadsadas</p>
-                                <p>dsadsadsadas</p>
+                                <p>تمتع بالجهد العالى للكهرباء النتجة للماء العالية</p>
+
                             </div>
                             <div class="img-container">
                                 <img src="images/last.jpeg" class="img-feature" alt="product">
@@ -185,44 +330,41 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4" style=" margin: auto;">
+                <div class="col-4" style=" margin: auto;">
                     <img src="images/last.jpeg" class="img-fluid img-center" alt="product">
                 </div>
-                <div class="col-lg-4">
-                    <div class="row ava-features ava-last">
-                        <div class="col-12" style="background-color: #92B2A7">
+                <div class="col-4">
+                    <div class="row ava-features ava-last  ava-features-left">
+                        <div class="col-12 ava-feature-left" style="background-color: #92B2A7">
                             <div class="img-container">
                                 <img src="images/last.jpeg" class="img-feature" alt="product">
                             </div>
                             <div class="feature-content">
                                 <h3>dasdsa</h3>
-                                <p>dsadsadsadas</p>
-                                <p>dsadsadsadas</p>
-                                <p>dsadsadsadas</p>
+                                <p>تمتع بالجهد العالى للكهرباء النتجة للماء العالية</p>
+
                             </div>
 
                         </div>
-                        <div class="col-12 ava-feature-left" style="background-color: #5DAA98">
+                        <div class="col-12 ava-feature-left" style="margin-right: 5%;background-color: #5DAA98">
                             <div class="img-container">
                                 <img src="images/last.jpeg" class="img-feature" alt="product">
                             </div>
                             <div class="feature-content">
                                 <h3>dasdsa</h3>
-                                <p>dsadsadsadas</p>
-                                <p>dsadsadsadas</p>
-                                <p>dsadsadsadas</p>
+                                <p>تمتع بالجهد العالى للكهرباء النتجة للماء العالية</p>
+
                             </div>
 
                         </div>
-                        <div class="col-12" style="background-color: #00978C">
+                        <div class="col-12 ava-feature-left" style="background-color: #00978C">
                             <div class="img-container">
                                 <img src="images/last.jpeg" class="img-feature" alt="product">
                             </div>
                             <div class="feature-content">
                                 <h3>dasdsa</h3>
-                                <p>dsadsadsadas</p>
-                                <p>dsadsadsadas</p>
-                                <p>dsadsadsadas</p>
+                                <p>تمتع بالجهد العالى للكهرباء النتجة للماء العالية</p>
+
                             </div>
 
                         </div>
