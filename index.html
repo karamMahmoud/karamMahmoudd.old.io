@@ -79,6 +79,7 @@
                         </div>
                     </div> -->
                 <style>
+                   
                     .ava-features .col-12 {
                         background-color: black;
                         padding: 12px;
@@ -121,7 +122,7 @@
                     .feature-content {
                         width: 100%;
                         display: flex;
-                        margin-right: 20px;
+                        margin-right: 12px;
                         flex-direction: column;
                         text-align: right;
                     }
@@ -130,31 +131,51 @@
                     /* .col-lg-4 {
                         max-width: 33.33%;
                     } */
-                    .feature-content h3{
-                                margin:0;
+                    .feature-content h3 {
+                        margin: 0;
+                    }
+
+                    .ava-features-right .img-container {
+                        margin: 0;
+                    }
+
+                    .ava-feature-right .feature-content h3 {
+                            font-size: 21px;
                         }
 
-                        .ava-features-right .img-container{
-                            margin:0;
+                        .ava-feature-left .feature-content h3 {
+                            font-size: 21px;
                         }
-                        @media (max-width:991px) {
-                        .ava-feature-right  .feature-content{
+
+
+                    @media (max-width:991px) {
+                        .ava-feature-right .feature-content h3 {
                             margin-right: 20px;
                         }
+
                         .ava-features .col-12 {
-    padding: 9px;
-}
-                    .ava-features-left .img-container{
-                            margin-left:10px;
+                            padding: 9px;
                         }
 
-                          .feature-content p{
-                                font-size:16px;
-                        }
-                        .feature-content h3{
-                                font-size:16px;
+                        .ava-features-left .img-container {
+                            margin-left: 10px;
                         }
 
+                        .feature-content p {
+                            font-size: 16px;
+                        }
+
+                        .feature-content h3 {
+                            font-size: 14px;
+                        }
+
+                        .ava-feature-right .feature-content h3 {
+                            font-size: 16.5px;
+                        }
+
+                        .ava-feature-left .feature-content h3 {
+                            font-size: 16.5px;
+                        }
                         .ava-feature-right {
                             margin-right: 0px;
                         }
@@ -162,14 +183,15 @@
                         .ava-feature-left {
                             margin-right: 0px;
                         }
-                        .ava-feature-left  .feature-content{
+
+                        .ava-feature-left .feature-content {
                             margin-right: 0;
                         }
 
-                             .img-feature {
-                        height: 55px;
-                        max-width: 55px;
-                    }
+                        .img-feature {
+                            height: 55px;
+                            max-width: 55px;
+                        }
 
                         /* .col-lg-4 {
                             max-width: 100%;
@@ -183,126 +205,296 @@
                             flex-direction: row-reverse;
                         } */
                     }
+
                     @media (max-width:800px) {
-                        .feature-content p{
-                                font-size:14px;
+                        .feature-content p {
+                            font-size: 14px;
                         }
+
                         .ava-features .col-12 {
-    padding: 8px;
-}
-                        .ava-features-left .img-container{
-                            margin-left:8px;
+                            padding: 8px;
                         }
-                        .feature-content h3{
-                                font-size:14px;
+
+                        .ava-features-left .img-container {
+                            margin-left: 8px;
                         }
+
+                        .feature-content h3 {
+                            font-size: 14px;
+                        }
+
                         .img-feature {
-                        height: 45px;
-                        max-width: 45px;
-                    }
-                    
-                        .ava-feature-right  .feature-content{
-                            margin-right: 10px;
+                            height: 45px;
+                            max-width: 45px;
                         }
-                    }
-                    @media (max-width:700px) {
-                        .feature-content p{
-                                font-size:11px;
-                        }
-                        .ava-features .col-12 {
-    padding: 6px;
-}
-                        .ava-features-left .img-container{
-                            margin-left:5px;
-                        }
-                        .feature-content h3{
-                                font-size:11px;
-                        }
-                    
-                        .ava-feature-right  .feature-content{
+
+                        .ava-feature-right .feature-content h3 {
                             margin-right: 8px;
                         }
-                        .img-feature {
-                        height: 35px;
-                        max-width: 35px;
-                    }
+
+                        .ava-feature-right .feature-content {
+                            margin-right: 6px;
+                        }
                     }
 
-                       @media (max-width:500px) {
-                        .feature-content p{
-                                font-size:9px;
+                    @media (max-width:700px) {
+                        .feature-content p {
+                            font-size: 11px;
                         }
+
                         .ava-features .col-12 {
-    padding: 5px;
-}
-                        .ava-features-left .img-container{
-                            margin-left:5px;
+                            padding: 6px;
                         }
-                        .feature-content h3{
-                                font-size:9px;
+
+                        .ava-features-left .img-container {
+                            margin-left: 5px;
                         }
-                        .ava-feature-right  .feature-content{
-                            margin-right: 7px;
+
+                        .feature-content h3 {
+                            font-size: 11px;
                         }
+
+                        .ava-feature-right .feature-content h3 {
+                            margin-right: 5px;
+                            font-size: 14px
+                        }
+
+                        .ava-feature-right .feature-content {
+                            margin-right: 2px;
+                            font-size: 14px
+                        }
+
                         .img-feature {
-                        height: 28px;
-                        max-width: 28px;
-                    }
+                            height: 35px;
+                            max-width: 35px;
+                        }
+                        .ava-feature-right .feature-content {
+                            margin-right: 6px;
+                        }
                     }
 
-                    h3{
+                    @media (max-width: 600px)
+                    {
+                        .ava-feature-right .feature-content h3 {
+                            font-size: 12px
+                        }
+
+                        .ava-feature-left .feature-content h3{
+                            font-size: 12px
+                        }
+
+                    }
+                    @media (max-width:536px) {
+                        .ava-features-left .img-container {
+                            margin-left: 4px;
+                        }
+
+                        .ava-features .col-12 p {
+                            margin: 0 !important;
+                            padding: 0 !important;
+                            font-size: 8px;
+                        }
+
+                        .ava-feature-right .feature-content {
+                            margin-right: 6px;
+                        }
+
+                        .ava-feature-right .feature-content h3{
+                            font-size: 10.5px;
+                        }
+
+                        
+                        .ava-feature-left .feature-content h3{
+                            font-size: 10.5px;
+                        }
+                    }
+
+                    @media (max-width:500px) {
+                        .feature-content p {
+                            font-size: 9px;
+                        }
+
+                        .ava-features .col-12 {
+                            padding: 5px;
+                        }
+
+                        .ava-features-left .img-container {
+                            margin-left: 5px;
+                        }
+
+                        .feature-content h3 {
+                            font-size: 9px;
+                        }
+
+                        .ava-feature-right .feature-content h3 {
+                            margin-right: 4px;
+                            font-size: 9px;
+                        }
+
+                        .ava-feature-left .feature-content h3 {
+                            font-size: 9px;
+                        }
+
+                        .ava-feature-right .feature-content p {
+                            font-size: 8px;
+                        }
+s
+                        .ava-feature-left .feature-content p {
+                            font-size: 8px;
+                        }
+
+                        .ava-feature-right .feature-content {
+                            margin-right: 8px;
+                        }
+
+                        .img-feature {
+                            height: 28px;
+                            max-width: 28px;
+                        }
+                    }
+
+                    h3 {
                         font-weight: bold;
                     }
 
-                       @media (max-width:400px) {
-                        .feature-content p{
-                                font-size:7px;
+                    @media (max-width:427px)
+                    {
+                        
+                        .ava-feature-right .feature-content h3 {
+                            font-size: 8px;
                         }
+
+                        .ava-feature-left .feature-content h3 {
+                            font-size: 8px;
+                        }
+
+ .ava-feature-right .feature-content p{
+                            font-size: 6px;
+                        }
+
+                        .ava-feature-left .feature-content p{
+                            font-size: 6px;
+                        }
+
+                      
+                    }
+
+                    @media (max-width:401px) {
+                        .feature-content p {
+                            font-size: 7px;
+                        }
+
                         .ava-features .col-12 {
-    padding: 3px;
-}
-                        .feature-content h3{
-                                font-size:7px;
+                            padding: 3px;
                         }
-                        .ava-features-left .img-container{
-                            margin-left:3px;
+
+                        .feature-content h3 {
+                            font-size: 7px;
                         }
-                        .ava-feature-right  .feature-content{
-                            margin-right: 5px;
+
+                        .ava-features-left .img-container {
+                            margin-left: 3px;
                         }
+
+                        .ava-feature-right .feature-content h3 {
+                            margin-right: 3px;
+                        }
+
+                        .ava-feature-right .feature-content {
+                            margin-right: 2px;
+                        }
+
                         .img-feature {
-                        height: 25px;
-                        max-width: 25px;
-                    }
+                            height: 25px;
+                            max-width: 25px;
+                        }
                     }
 
-                      @media (max-width:350px) {
-                        .feature-content p{
-                                font-size:7px;
+                    @media (max-width:362px){
+                        .ava-feature-right .feature-content h3 {
+                            font-size: 7px;
                         }
-                        .feature-content h3{
-                                font-size:7px;
+
+                        .ava-feature-left .feature-content h3 {
+                            font-size: 7px;
                         }
-                        .ava-features-left .img-container{
-                            margin-left:1px;
+                        .ava-feature-right .feature-content p {
+                            font-size: 6px;
                         }
-                        .ava-feature-right  .feature-content{
-                            margin-right: 8px;
+
+                        .ava-feature-left .feature-content p {
+                            font-size: 6px;
                         }
-                        .img-feature {
-                        height: 25px;
-                        max-width: 25px;
                     }
+                    @media (max-width:350px) {
+                        .feature-content p {
+                            font-size: 7px;
+                        }
+
+                        .feature-content h3 {
+                            font-size: 7px;
+                        }
+
+                        .ava-features-left .img-container {
+                            margin-left: 1px;
+                        }
+
+                        .ava-feature-right .feature-content h3 {
+                            margin-right: 2px;
+                        }
+
+                        .ava-feature-right .feature-content {
+                            margin-right: 4px;
+                        }
+
+                        .img-feature {
+                            height: 25px;
+                            max-width: 25px;
+                        }
+                    }
+                    
+                    @media (max-width:332px){
+                        .ava-feature-right .feature-content h3 {
+                            font-size: 6px;
+                        }
+
+                        .ava-feature-left .feature-content h3 {
+                            font-size: 6px;
+                        }
+                        .ava-feature-right .feature-content p {
+                            font-size: 5px;
+                        }
+
+                        .ava-feature-left .feature-content p {
+                            font-size: 5px;
+                        }
                     }
 
-                   
+                    @media (max-width:306px){
+                        .ava-feature-right .feature-content h3 {
+                            font-size: 5.5px;
+                        }
+
+                        .ava-feature-left .feature-content h3 {
+                            font-size: 5.5px;
+                        }
+                        .ava-feature-right .feature-content p {
+                            font-size: 4.5px;
+                        }
+
+                        .ava-feature-left .feature-content p {
+                            font-size: 4.5px;
+                        }
+                    }
                 </style>
                 <div class="col-4">
                     <div class="row ava-features ava-features-right">
                         <div class="col-12 ava-feature-right" style="background-color:#32364e;">
                             <div class="feature-content">
-                                <h3>dasdsa</h3>
-                                <p>تمتع بالجهد العالى للكهرباء النتجة للماء العالية</p>
+                                <h3>Wheeat Germ Oil</h3>
+                                <p>محاربة اثار التوتر و الارق</p>
+                                <p>الناتج عن الضغط النفسي</p>
+                                <p>وزيادة الرغبة الجنسية</p>
                             </div>
                             <div class="img-container">
                                 <img src="images/last.jpeg" class="img-feature" alt="product">
@@ -310,9 +502,10 @@
                         </div>
                         <div class="col-12 ava-feature-right" style="margin-right: -5%;background-color:#36537a;">
                             <div class="feature-content">
-                                <h3>dasdsa</h3>
-                                <p>تمتع بالجهد العالى للكهرباء النتجة للماء العالية</p>
-
+                                <h3>Ginseng Korean Red</h3>
+                                <p>يزيد إنتاج هرمون</p>
+                                <p>التستوستيرون مما يزيد</p>
+                                <p>الرغبة في ممارسة العلاقة</p>
                             </div>
                             <div class="img-container">
                                 <img src="images/last.jpeg" class="img-feature" alt="product">
@@ -320,9 +513,10 @@
                         </div>
                         <div class="col-12 ava-feature-right" style="background-color:#5d7494;">
                             <div class="feature-content">
-                                <h3>dasdsa</h3>
-                                <p>تمتع بالجهد العالى للكهرباء النتجة للماء العالية</p>
-
+                                <h3>Propolis</h3>
+                                <p>افضل مثير للشهوة</p>
+                                <p>الجنسية و يعمل علي</p>
+                                <p>تحفيز الرغبة الحنسية</p>
                             </div>
                             <div class="img-container">
                                 <img src="images/last.jpeg" class="img-feature" alt="product">
@@ -331,7 +525,7 @@
                     </div>
                 </div>
                 <div class="col-4" style=" margin: auto;">
-                    <img src="images/last.jpeg" class="img-fluid img-center" alt="product">
+                    <img src="images/x.png" class="img-fluid img-center" alt="product">
                 </div>
                 <div class="col-4">
                     <div class="row ava-features ava-last  ava-features-left">
@@ -340,20 +534,21 @@
                                 <img src="images/last.jpeg" class="img-feature" alt="product">
                             </div>
                             <div class="feature-content">
-                                <h3>dasdsa</h3>
-                                <p>تمتع بالجهد العالى للكهرباء النتجة للماء العالية</p>
-
+                                <h3>Pollen</h3>
+                                <p>يزيد من عدد الحيوانات </p>
+                                <p>المنوية و يحسن جودة</p>
+                                <p>السائل المنوى</p>
                             </div>
-
                         </div>
                         <div class="col-12 ava-feature-left" style="margin-right: 5%;background-color: #5DAA98">
                             <div class="img-container">
                                 <img src="images/last.jpeg" class="img-feature" alt="product">
                             </div>
                             <div class="feature-content">
-                                <h3>dasdsa</h3>
-                                <p>تمتع بالجهد العالى للكهرباء النتجة للماء العالية</p>
-
+                                <h3>Palm Poilen</h3>
+                                <p>يحتوى على املاح معدنية</p>
+                                <p>و فيتامينات تساعد علي</p>
+                                <p>تنشيط الدورة الدموية</p>
                             </div>
 
                         </div>
@@ -362,9 +557,10 @@
                                 <img src="images/last.jpeg" class="img-feature" alt="product">
                             </div>
                             <div class="feature-content">
-                                <h3>dasdsa</h3>
-                                <p>تمتع بالجهد العالى للكهرباء النتجة للماء العالية</p>
-
+                                <h3>Galangal</h3>
+                                <p>يساعد علي توسيع الأوعية</p>
+                                <p>الدموية و زيادة تدفق الدم</p>
+                                <p>للعضو الذكري</p>
                             </div>
 
                         </div>
