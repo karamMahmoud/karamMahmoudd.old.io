@@ -1084,7 +1084,9 @@ h3 {
 }
 
 @media (max-width:427px) {
-
+    .ava-feature-right .feature-content {
+        margin-right: 8px;
+    }
     .ava-feature-right .feature-content h3 {
         font-size: 8px;
     }
@@ -1094,11 +1096,11 @@ h3 {
     }
 
     .ava-feature-right .feature-content p {
-        font-size: 6px;
+        font-size: 8px;
     }
 
     .ava-feature-left .feature-content p {
-        font-size: 6px;
+        font-size: 8px;
     }
 
 
@@ -1126,7 +1128,7 @@ h3 {
     }
 
     .ava-feature-right .feature-content {
-        margin-right: 2px;
+        margin-right: 6px;
     }
 
     .img-feature {

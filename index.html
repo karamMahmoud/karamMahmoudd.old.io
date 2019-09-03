@@ -200,7 +200,7 @@
             border-radius: 0;
         }
 
-        
+
         @media (max-width:980px) {
             #feature2 p {
                 font-size: 1.1vw !important;
@@ -424,19 +424,195 @@
                         منشط عام للجسم ويزيد من <br> الشهوة والرغبة عند الرجال
                     </p>
                 </div> -->
+
+                <style>
+                    .usage-container {
+                        border-radius: 50%;
+                        min-width: 200px;
+                        max-width: 200px;
+                        min-height: 200px;
+                        justify-content: center;
+                        display: flex;
+                        flex-direction: column;
+                        padding: 0px;
+                        margin-left: 13px;
+                        margin-right: 13px;
+                        background: #F4F5F5;
+                    }
+
+                    .bg1 {
+                        border: solid 17px #739698;
+                    }
+
+                    .bg1 div p {
+                        color: #739698;
+                    }
+
+                    .bg2 {
+                        border: solid 17px #00b2b7;
+                    }
+
+                    .bg2 div p {
+                        color: #00b2b7;
+                    }
+
+                    .bg3 {
+                        border: solid 17px #1485AD;
+                    }
+
+                    .bg3 div p {
+                        color: #1485AD;
+                    }
+
+                    .bg4 {
+                        border: solid 17px #3A516A;
+                    }
+
+                    .bg4 div p {
+                        color: #3A516A;
+                    }
+
+                    .usage-container .div {
+                        border-radius: 50%;
+                        box-shadow: 3px 3px 9px #000;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        min-height: 100%;
+                    }
+
+                    .div p {
+                        margin-bottom: -5px;
+                        color: #739698;
+                        font-weight: bold;
+                    }
+
+                    .usage-img {
+                        max-width: 60px;
+                        height: 60px;
+                        margin-bottom: 13px;
+                    }
+
+                    .usage-container::before {
+                        content: '';
+                        position: absolute;
+                        top: 40%;
+                        left: 54%;
+                        margin: 0 auto;
+                        width: 0;
+                        height: 0;
+                        border-left: solid 85px transparent;
+                        border-top: 23px solid transparent;
+                        border-right: 22px solid #F7941E;
+                        border-bottom: 21px solid transparent;
+                    }
+
+                    .usage-container:hover {
+                        background: #424a4a;
+                    }
+
+                    .usage-container:hover  div p {
+                        color: white;
+                    }
+
+
+                    @media (max-width:1200px) {
+                        .usage-container {
+                            min-width: 162px;
+                            max-width: 163px;
+                            min-height: 169px;
+                            margin-bottom: 15px;
+                        }
+
+                        .div p {
+                            font-size: 15px;
+                        }
+
+                        .usage-img {
+                            max-width: 50px;
+                            height: 50px;
+                            margin-bottom: 8px;
+                        }
+
+                        .usage-container::before {
+                            left: 38%;
+                        }
+
+                        .usage-container::before {
+                            content: none;
+                        }
+                    }
+
+                    .usage-hr {
+                        border-top: 1vw dotted #1485AD;
+                        margin-bottom: 35px;
+                        width: 12%;
+                        height: 1px;
+                        margin: 0 auto 32px;
+                    }
+
+                    .usage-head {
+                        color: #3A526B;
+                        font-weight: 600;
+                    }
+                </style>
+
                 <div class="col-12">
-                    <div class="main-temp-head">
+                    <div class="main-temp-head usage-head">
                         طريقة الاستخدام
                     </div>
-                    <div class="main-t-2-hr main-temp-hr">
+                    <div class="usage-hr">
                     </div>
                 </div>
-                <div class="col-md-12">
-                    <img src="./images/usage.png" style="max-width:100%;width:100%">
+
+
+                <div class="col-12">
+                    <div class="row justify-content-center" style="margin-bottom: 20px;">
+                        <div class="col-md-3 usage-container bg1">
+                            <div class="div">
+                                <div>
+                                    <img src="./images/steps-copy-2_03.png" alt="" class="usage-img">
+                                </div>
+                                <p>تقلب العبوة جيدا</p>
+                                <p>قبل الاستخدام</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 usage-container bg2">
+                            <div class="div">
+                                <div>
+                                    <img src="./images/steps-copy-2_10.png" alt="" class="usage-img">
+                                </div>
+                                <p>تناول معلقة صغيرة</p>
+                                <p>على معدة فارغة</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 usage-container bg3">
+                            <div class="div">
+                                <div>
+                                    <img src="./images/steps-copy-2_08.png" alt="" class="usage-img">
+                                </div>
+                                <p>جرعة إضافية قبل</p>
+                                <p>الجماع بنص ساعة</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 usage-container bg4">
+                            <div class="div">
+                                <div>
+                                    <img src="./images/steps-copy-2_06.png" alt="" class="usage-img">
+                                </div>
+                                <p>تحسن في قدرتك</p>
+                                <p>خلال اول الشهر</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-12"> -->
+                    <!-- <img src="./images/usage.png" style="max-width:100%;width:100%"> -->
                     <!-- <div class="main-temp-p2">
                             تناول معلقة صغيرة كل صباح قبل الفطار
                     </div> -->
-                </div>
+                <!-- </div> -->
                 <!-- <div class="col-4">
                     <div class="main-temp-p2">
                         تحسن ملحوظ فى قدرتك الجنسيه مع اول عبوه
