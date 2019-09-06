@@ -69,7 +69,8 @@ body {
 }
 
 #main-section{
-    background-color: #0E2326;
+    /*background-color: #0E2326;*/
+    background: url(../images/slider-bg.png) center/auto 52% no-repeat;
 }
 
 .justify-content-center{
@@ -100,7 +101,7 @@ body {
 }
 
 .main-head {
-    font-size: 49px;
+    /*font-size: 49px;*/
     line-height: 1.2;
     padding-top: 100px;
 }
@@ -120,7 +121,7 @@ body {
 }
 
 .list {
-    font-size: 22px;
+    font-size: 21px;
     line-height: 2.3;
 }
 
@@ -157,13 +158,13 @@ body {
 }
 
 .main-color1 {
-    background: #0E2326;
-    color: #FFF
+    /*background: #0E2326;*/
+    color: #707070
 }
 
 .main-color2 {
-    background: #0E2326;
-    color: #FFF;
+    /*background: #0E2326;*/
+    color: #707070;
     padding: 50px 0;
 }
 
@@ -175,7 +176,7 @@ body {
 .main-container1 {
     max-width: 415px;
     margin: auto;
-    background: #252525
+    /*background: #252525*/
 }
 
 .main-last1 {
@@ -243,7 +244,7 @@ body {
 
 .call-head {
     border-right: 2px solid #b3152e;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1;
     margin: 30px 0;
     text-align: right;
@@ -251,7 +252,7 @@ body {
 }
 
 .call-head span {
-    font-size: 33px;
+    font-size: 30px;
 }
 
 .main-temp-head {
@@ -459,16 +460,16 @@ body {
 @media (max-width:1199px) {
     .main-container,
     .main-container1 {
-        max-width: 345px;
+        /*max-width: 345px;*/
     }
     .main-head {
-        font-size: 39px;
+        /*font-size: 39px;*/
     }
     .main-head span {
         font-size: 33px;
     }
     .list {
-        font-size: 18px;
+        font-size: 21px;
     }
     .btn-main {
         width: 93%;
@@ -577,7 +578,7 @@ body {
     }
     .call-head {
         font-size: 29px;
-        border-right: 11px solid #b3152e;
+        border-right: 0px solid #b3152e;
     }
     .call-head span {
         font-size: 23px;
@@ -699,7 +700,7 @@ body {
         padding: 12px 0;
     }
     .btn-main {
-        font-size: 21px;
+        font-size: 17px;
     }
     .main-last {
         font-size: 25px;
@@ -723,11 +724,14 @@ body {
 
     }
     .call-head {
-        font-size: 22px;
-        border-right: 9px solid #b3152e
+        font-size: 18px;
+        border-right: 0px solid #b3152e;
+        padding-right: 0px;
+        margin: 20px 0;
+        text-align: center;
     }
     .call-head span {
-        font-size: 18px
+        font-size: 14px
     }
     .main-temp-head {
         font-size: 25px;
