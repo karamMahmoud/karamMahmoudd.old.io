@@ -798,7 +798,51 @@
                             <div class="main-t-2-head">برجاء اختيار العرض
                             </div>
                         </div>
-                <div class="col-lg-12" style="margin-top:20px;background:#ededed;padding:10px;border:2px solid #666;font-size:21px">
+                 <div class="col-lg-12" style="margin-top:20px;background:#fff;padding:10px;border:2px solid #666;font-size:21px">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p class="text-right" style="font-weight:bold;font-size:26px;color:#D98D23">افانتى لعلاج مشكلة ضعف الانتصاب وسرعة القذف</p>
+                            <p>اطلب عبوة واحصل على <span class="text-danger bold" style="font-size:32px;font-weight: bold">خصم 30%</span></p>
+                            
+                                    <p>السعر بعد الخصم</p>
+                                    <p><span style="font-weight:bold;font-size:66px;color:#D98D23;text-shadow: 4px 4px #aaa;">550</span> جنيه
+                                        بدلا من
+                                        <span style="font-size:48px;text-decoration: line-through;font-weight: bold;" class="text-danger">800</span> جنيه</p>
+                            </div>
+                        <div class="col-sm-6" style="display: flex;
+                        flex-direction: column;
+                        /* justify-content: center; */
+                        text-align: center;
+                        align-items: center;
+                        align-self: center;">
+                            <img src="./images/img1.png" alt="" style="max-width:100%;width:150px">
+                            <button class="btn btn-primary choose-btn" style="padding: 7px 40px;display:block;margin:auto;margin-top:10px">اختيار العرض</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12" style="margin-top:20px;background:#fff;padding:10px;border:2px solid #666;font-size:21px">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p class="text-right" style="font-weight:bold;font-size:26px;color:#D98D23">افانتى لعلاج مشكلة ضعف الانتصاب وسرعة القذف</p>
+                            <p>اطلب عبوة و  <span class="text-danger bold" style="font-size:32px;font-weight: bold">وفر 1550 جنيه</span></p>
+                            
+                                    <p>السعر بعد الخصم</p>
+                                    <p><span style="font-weight:bold;font-size:66px;color:#D98D23;text-shadow: 4px 4px #aaa;">1650</span> جنيه
+                                        بدلا من
+                                        <span style="font-size:48px;text-decoration: line-through;font-weight: bold;" class="text-danger">3200</span> جنيه</p>
+                            </div>
+                        <div class="col-sm-6" style="display: flex;
+                        flex-direction: column;
+                        /* justify-content: center; */
+                        text-align: center;
+                        align-items: center;
+                        align-self: center;">
+                            <img src="./images/3.png" alt="" style="max-width:100%;width:150px">
+                            <button class="btn btn-primary choose-btn" style="padding: 7px 40px;display:block;margin:auto;margin-top:10px">اختيار العرض</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-12" style="margin-top:20px;background:#ededed;padding:10px;border:2px solid #666;font-size:21px">
                     <div class="row">
                         <div class="col-sm-6">
                             <p>اطلب عبوة واحصل على</p>
@@ -863,7 +907,8 @@
                                     <button class="btn btn-primary choose-btn" style="padding: 7px 40px;display:block;margin:auto;margin-top:10px">اختر هذا العرض</button>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
+                        <!-- --------------------------------------- -->
                 <!-- <div class="col-10">
                     <div class="main-t-2-head">ابدء حياة جديدة بدون أي مشاكل جنسية
                     </div>
@@ -1119,8 +1164,10 @@
 
         // 797d82
         $('.choose-btn').on('click', function(){
-            $('.choose-btn').closest('.col-lg-12').css('background', '#ededed');
-            $(this).closest('.col-lg-12').css('background', '#797d82');
+            $('.choose-btn').closest('.col-lg-12').css('background', '#fff');
+            $('.choose-btn').text("اختيار العرض")
+            $(this).closest('.col-lg-12').css('background', '#f4d8cd');
+            $(this).text("العرض المختار")
         });
         $(function () {
     $('.bg1').hover(function(){
