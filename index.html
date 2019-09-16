@@ -1178,8 +1178,11 @@
 
         // 797d82
         $('.choose-btn').on('click', function () {
-            $('.choose-btn').closest('.col-lg-12').css('background', '#ededed');
-            $(this).closest('.col-lg-12').css('background', '#797d82');
+            $('.choose-btn').closest('.col-lg-12').css('background', '#fff');
+            $(this).closest('.col-lg-12').css('background', '#797d82');	 
+            $('.choose-btn').text("اختيار العرض")
+            $(this).closest('.col-lg-12').css('background', '#f4d8cd');
+            $(this).text("العرض المختار")
         });
         $(function () {
             $('.bg1').hover(function () {
