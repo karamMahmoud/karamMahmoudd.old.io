@@ -18,12 +18,12 @@
         <div class="row justify-content-between" id="main-section">
             <div class="col-sm-8">
                 <div class=" main-color1">
-                    <div class="main-container">
+                    <div class="">
                         <div class="main-contains">
-                            <h4 class="main-head">البديل الطبيعي و المنافس للفياجرا .. اقوي علاج لضعف القدرة و سرعة
-                                القذف</h4>
-                            <h2><span> Avanti</span> ما ستلاحظه عند تجريبك</h2>
-                            <ul class="main-head1 list-unstyled">
+                            <h4 class="main-head">البديل الطبيعي و المنافس للفياجرا ..
+                                </h4>
+                            <h2  style="color:#baddde"><span> Avanti</span> ما ستلاحظه عند تجريبك</h2>
+                            <ul class="main-container main-head1 list-unstyled">
                                 <li class="list firstSvg">نمو اكبر لحجم القضيب</li>
                                 <li class="list secondSvg">  استخدامك لافانتي بانتظام لمدة 3 شهور
                                     يساعدك علي حل مشاكل الحجم و الطول
@@ -42,12 +42,10 @@
                             <!--                            <div class="main-last">خصم <span>%33 </span><span>لفترة محدودة</span></div>-->
                             <div class="text-center">
                                 <button class="btn-main btn rush" style="background: green;"
-                                    onClick="requestForm()">ابدا العلاج الان</button>
+                                    onClick="requestNext()">ابدا العلاج الان</button>
                             </div>
                         </div>
                     </div>
-                    <div class="main-last" style="font-size: 25px;">مع ضمان استرجاع خلال 30 يوم في حالة عدم الوصول
-                        للنتائج المرجوة</div>
                 </div>
             </div>
             <div class="col-sm-4" style="display: flex;
@@ -59,10 +57,13 @@
                 ">
             </div>
         </div>
+            <div class="grantee main-last text-danger" style="font-weight: bold;font-size: 25px;margin-top: -30px;
+            margin-bottom: 15px;">مع ضمان استرجاع خلال 30 يوم في حالة عدم الوصول
+                للنتائج المرجوة</div>
     </section>
-    <section class="main-t-2 container-fluid text-center">
+    <section class="contains main-t-2 container-fluid text-center">
         <div class="row justify-content-center">
-            <div class="col-12">
+            <div class="col-12" style="margin-bottom: 20px;">
                 <div class="main-t-2-head">أفانتي يرفع القدرة الذكورية إلي اقصي حد
                 </div>
             </div>
@@ -1173,6 +1174,12 @@
             color: #fc5a5a;
             font-weight: bold;
         }
+        .formClass{
+            display: none;
+        }
+        #counter{
+            margin-bottom: 50px;
+        }
     </style>
 
     <div id="counter" class="main-temp container-fluid text-center">
@@ -1219,7 +1226,7 @@
             </div>
         </div>
     </div>
-    <section class="main-temp container-fluid text-center">
+    <section class="main-temp formClass container-fluid text-center">
         <div class="container">
             <div class="row">
                 <div class="col-12" style="margin: auto;
@@ -1365,6 +1372,12 @@
             }, 1000);
         }
 
+        function requestNext() {
+            $('html, body').animate({
+                scrollTop: $(".contains").offset().top
+            }, 1000);
+        }
+
         //change image when hover
 
         // 797d82
@@ -1377,6 +1390,11 @@
             $(this).closest('.col-lg-12').css('background', '#f4d8cd');
             $(this).closest('.col-12').css('background', '#f4d8cd');
             $(this).text("العرض المختار")
+            $('.formClass').css('display','block')
+            $('html, body').animate({
+                scrollTop: $(".formClass").offset().top
+            }, 1000);
+            $('#counter').css('margin-bottom','0 !important')
         });
         $(function () {
             $('.bg1').hover(function () {
