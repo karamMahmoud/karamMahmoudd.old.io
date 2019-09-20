@@ -948,6 +948,11 @@
                 font-size: 9px;
             }
         }
+        .offer{
+            border: 1px solid #ededed;
+            margin-bottom: 10px;
+        }
+
     </style>
     <section class="main-t-2 container-fluid text-center">
         <div class="container">
@@ -957,7 +962,7 @@
                     </div>
                 </div>
 
-                <div class="col-12">
+                <div class="col-12 offer">
                     <div class="row">
                         <div class="col-8 offer-container">
                             <h2 class="off-c">عرض IHair الخاص للشعر</h2>
@@ -987,7 +992,7 @@
                     </div>
                 </div>
 
-                <div class="col-12">
+                <div class="col-12 offer">
                     <div class="row">
                         <div class="col-8 offer-container">
                             <h2 class="off-back">عرض IHair الخاص للشعر</h2>
@@ -1360,9 +1365,12 @@
         // 797d82
         $('.choose-btn').on('click', function () {
             $('.choose-btn').closest('.col-lg-12').css('background', '#fff');
+            $('.choose-btn').closest('.col-12').css('background', '#fff');
             $(this).closest('.col-lg-12').css('background', '#797d82');
+            $(this).closest('.col-12').css('background', '#797d82');
             $('.choose-btn').text("اختيار العرض")
             $(this).closest('.col-lg-12').css('background', '#f4d8cd');
+            $(this).closest('.col-12').css('background', '#f4d8cd');
             $(this).text("العرض المختار")
         });
         $(function () {
