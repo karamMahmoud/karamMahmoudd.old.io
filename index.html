@@ -90,7 +90,7 @@
                 <div class="col-4">
                     <div class="row ava-features ava-features-right">
                         <div class="col-12 ava-feature-right" style="background-color:#32364e;">
-                            <div class="feature-content">
+                            <div class="feature-content firstOne">
                                 <h3>Wheeat Germ Oil</h3>
                                 <p>محاربة اثار التوتر و الارق</p>
                                 <p>الناتج عن الضغط النفسي</p>
@@ -101,7 +101,7 @@
                             </div>
                         </div>
                         <div class="col-12 ava-feature-right" style="margin-right: -5%;background-color:#36537a;">
-                            <div class="feature-content">
+                            <div class="feature-content secondOne">
                                 <h3>Ginseng Korean Red</h3>
                                 <p>يزيد إنتاج هرمون</p>
                                 <p>التستوستيرون مما يزيد</p>
@@ -112,7 +112,7 @@
                             </div>
                         </div>
                         <div class="col-12 ava-feature-right" style="background-color:#5d7494;">
-                            <div class="feature-content">
+                            <div class="feature-content thirdOne">
                                 <h3>Propolis</h3>
                                 <p>افضل مثير للشهوة</p>
                                 <p>الجنسية و يعمل علي</p>
@@ -129,11 +129,11 @@
                 </div>
                 <div class="col-4">
                     <div class="row ava-features ava-last  ava-features-left">
-                        <div class="col-12 ava-feature-left" style="background-color: #92B2A7">
+                        <div class="col-12 ava-feature-left " style="background-color: #92B2A7">
                             <div class="img-container">
                                 <img src="images/info-6_06.png" class="img-feature" alt="product">
                             </div>
-                            <div class="feature-content">
+                            <div class="feature-content firstOposite">
                                 <h3>Pollen</h3>
                                 <p>يزيد من عدد الحيوانات </p>
                                 <p>المنوية و يحسن جودة</p>
@@ -144,7 +144,7 @@
                             <div class="img-container">
                                 <img src="images/info-6_14.png" class="img-feature" alt="product">
                             </div>
-                            <div class="feature-content">
+                            <div class="feature-content secondOposite">
                                 <h3>Palm Poilen</h3>
                                 <p>يحتوى على املاح معدنية</p>
                                 <p>و فيتامينات تساعد علي</p>
@@ -156,7 +156,7 @@
                             <div class="img-container">
                                 <img src="images/info-6_22.png" class="img-feature" alt="product">
                             </div>
-                            <div class="feature-content">
+                            <div class="feature-content thirdOposite">
                                 <h3>Galangal</h3>
                                 <p>يساعد علي توسيع الأوعية</p>
                                 <p>الدموية و زيادة تدفق الدم</p>
@@ -1283,7 +1283,7 @@
             var oTop = $('#counter').offset().top - window.innerHeight;
             $(window).scroll(function () {
                 var pTop = $(window).scrollTop();
-                console.log(pTop + ' - ' + oTop); //just for your debugging
+                // console.log(pTop + ' - ' + oTop); //just for your debugging
                 if (pTop > oTop && started == 0) {
                     started = 1;
                     move();
@@ -1395,6 +1395,16 @@
                 $('.usage-img-4').attr('src', './images/userimg-4a.png');
             });
         });
+        $(window).resize(function() {
+        $(".firstOposite").css('height',$('.firstOne').height());
+        $(".secondOposite").css('height',$('.secondOne').height());
+        $(".thirdOne").css('height',$('.thirdOposite').height());
+        })
+        setInterval(() => {
+        $(".firstOposite").css('height',$('.firstOne').height());
+        $(".secondOposite").css('height',$('.secondOne').height());
+        $(".thirdOne").css('height',$('.thirdOposite').height());
+        }, 1000);
     </script>
 </body>
 
