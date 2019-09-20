@@ -183,7 +183,8 @@
                     </div>
                 </div>
                 <div class="col-4 pt-4 m-auto">
-                    <button class="btn-main btn btn-main-2 rush" onClick="requestForm()">ابدا العلاج الان</button>
+                    <button class="btn-req-nw btn-main btn btn-main-2 rush" onClick="requestForm()">ابدا العلاج
+                        الان</button>
                     <div class="main-last1">
                         <img src="images/block1.png" class="img-fluid" alt="">
                     </div>
@@ -788,7 +789,8 @@
                     </div>
                 </div>
                 <div class="col-4 pt-4 m-auto">
-                    <button class="btn-main btn btn-main-2 rush" onClick="requestForm()">ابدا العلاج الان</button>
+                    <button class="btn-req-nw btn-main btn btn-main-2 rush" onClick="requestForm()">ابدا العلاج
+                        الان</button>
                     <div class="main-last1">
                         <img src="images/block1.png" class="img-fluid" alt="">
                     </div>
@@ -832,6 +834,121 @@
             color: #00978C
         }
     </style>
+
+    <style>
+        .off-c {
+            color: #ff5400;
+            text-align: right;
+            font-weight: bold;
+        }
+
+        .rating {
+            text-align: right;
+        }
+
+        .stars .checked {
+            color: orange;
+        }
+
+        .rating .reviews {
+            color: grey;
+            font-size: 20px;
+        }
+
+        .subtitle {
+            font-size: 30px;
+            margin-bottom: 0;
+        }
+
+        .offer-container .main-price {
+            color: #ff5400;
+            font-size: 120px;
+        }
+
+        .offer-container .currency {
+            font-size: 34px;
+            margin: 20px;
+        }
+
+        .offer-container button {
+            border-radius: 27px;
+            background: black;
+        }
+
+        .offer-container .price {
+            line-height: .8;
+        }
+
+        .offer-container .shipping {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .prod-img {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .off-back {
+            text-align: center;
+            font-weight: bold;
+            background-color: #ff5400;
+            color: white;
+        }
+
+        @media (max-width:797px) {
+            .offer-container h1 {
+                font-size: 3.5vw;
+            }
+        }
+
+        @media (max-width:768px) {
+            .off-c {
+                font-size: 4.5vw;
+            }
+        }
+
+        @media (max-width:580px) {
+            .subtitle {
+                font-size: 3.5vw;
+            }
+        }
+
+        @media (max-width:500px) {
+            .off-back {
+                font-size: 4vw;
+            }
+
+            .offer-container .main-price {
+                font-size: 17vw;
+            }
+
+            .rating .reviews {
+                color: grey;
+                font-size: 13px;
+            }
+        }
+
+        @media(max-width:395px) {
+            .offer-container .main-price {
+                font-size: 14vw;
+            }
+
+            .offer-container button {
+                padding: 7px 23px !important;
+                font-size: 14px;
+            }
+
+            .offer-container .shipping {
+                font-size: 14px;
+            }
+
+              .rating .reviews {
+                font-size: 9px;
+            }
+        }
+    </style>
     <section class="main-t-2 container-fluid text-center">
         <div class="container">
             <div class="row justify-content-center">
@@ -839,6 +956,70 @@
                     <div class="main-t-2-head">برجاء اختيار العرض
                     </div>
                 </div>
+
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-8 offer-container">
+                            <h2 class="off-c">عرض IHair الخاص للشعر</h2>
+                            <h1 class="text-right" style=" font-weight: bold; ">&#8482;21iHair يوم فترة استخدام </h1>
+                            <div class="rating">
+                                <div class="stars">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="reviews">( 644 ينصح باستخدامه )</span>
+                                </div>
+                                <p class="subtitle">للتساقط و تقوية الشعر</p>
+                                <p class="subtitle">لايوجد لديه ضمان لابنات الشعر</p>
+                                <p class="mb-0 text-center price"><span class="main-price">599</span><span
+                                        class="currency">EGP</span> </p>
+                                <button class="btn-main btn btn-main-2 rush choose-btn"
+                                    style="padding: 7px 60px;display:block;margin:auto;margin-top:10px">اختر العرض
+                                    المناسب</button>
+                                <p class="text-center shipping">49 جنيه رسوم شحن</p>
+                            </div>
+                        </div>
+                        <div class="col-4 prod-img">
+                            <img src="./images/img1.png" alt="" style="max-width:100%;width:233px; max-height: 400px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-8 offer-container">
+                            <h2 class="off-back">عرض IHair الخاص للشعر</h2>
+                            <h1 class="text-right" style=" font-weight: bold; ">&#8482;21iHair استخدام لشهرين </h1>
+                            <div class="rating">
+                                <div class="stars">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="reviews">( تم شراء 1233 شخصا )</span>
+                                </div>
+                                <p class="subtitle">اختر عرض تغذية</p>
+                                <p class="subtitle">و تقوية و اطالة بشكل اسرع</p>
+                                <p class="subtitle" style="color: #ff5400">40 % علي الاقل يقوي و يساعد</p>
+                                <p class="subtitle" style="color: #ff5400">علي نمو FOLICUL . الالاف من الشعيرات</p>
+                                <p class="mb-0 text-center price"><span class="main-price">1299</span><span
+                                        class="currency">EGP</span> </p>
+                                <button class="btn-main btn btn-main-2 rush choose-btn"
+                                    style="padding: 7px 60px;display:block;margin:auto;margin-top:10px">اختر العرض
+                                    المناسب</button>
+                                <p class="text-center shipping">التوصيل بالمجان</p>
+
+                            </div>
+                        </div>
+                        <div class="col-4 prod-img">
+                            <img src="./images/3.png" alt="" style="max-width:100%;width:233px; max-height: 400px;">
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-lg-12"
                     style="margin-top:20px;background:#ededed;padding:10px;border:2px solid #666;font-size:21px">
                     <div class="row">
@@ -871,8 +1052,8 @@
                     style="margin-top:20px;background:#ededed;padding:10px;border:2px solid #666;font-size:21px">
                     <div class="row">
                         <div class="col-sm-8">
-                            <p class="mt-0 mb-0"> اطلب 3 عبوات و احصل علي  <span style="font-size:45px;border-bottom: 3px solid black;
-                                padding-bottom: 5px;">الرابعة</span>  مجانا</p>
+                            <p class="mt-0 mb-0"> اطلب 3 عبوات و احصل علي <span style="font-size:45px;border-bottom: 3px solid black;
+                                padding-bottom: 5px;">الرابعة</span> مجانا</p>
                             <h4 class="text-danger bold" style="font-size:32px;font-weight: bold">وفر 1550 جنيه</h4>
                             <div class="row">
                                 <div class="col-6" style="border-left:2px solid #aaa">
@@ -881,8 +1062,7 @@
                                 </div>
                                 <div class="col-6">
                                     <p>بدلا من</p>
-                                    <p><span
-                                            class="old-price">3200</span>
+                                    <p><span class="old-price">3200</span>
                                         جنيه</p>
                                 </div>
                             </div>
@@ -890,7 +1070,8 @@
                         <div class="col-sm-4">
                             <img src="./images/3.png" alt="" style="max-width:100%;width:315px;    height: 200px; ">
                             <button class="btn-main btn btn-main-2 rush choose-btn"
-                                style="padding: 7px 40px;display:block;margin:auto;margin-top:10px">اختر الكورس العلاجي</button>
+                                style="padding: 7px 40px;display:block;margin:auto;margin-top:10px">اختر الكورس
+                                العلاجي</button>
                             <p class="mb-0">التوصيل مجاني</p>
 
                         </div>
@@ -1179,7 +1360,7 @@
         // 797d82
         $('.choose-btn').on('click', function () {
             $('.choose-btn').closest('.col-lg-12').css('background', '#fff');
-            $(this).closest('.col-lg-12').css('background', '#797d82');	 
+            $(this).closest('.col-lg-12').css('background', '#797d82');
             $('.choose-btn').text("اختيار العرض")
             $(this).closest('.col-lg-12').css('background', '#f4d8cd');
             $(this).text("العرض المختار")

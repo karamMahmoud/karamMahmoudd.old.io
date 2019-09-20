@@ -699,8 +699,9 @@ body {
         width: 7%;
     }
     .list {
-        font-size: 12px;
+        font-size: 17px;
     }
+
     .main-head1 {
         padding: 12px 0;
     }
@@ -802,6 +803,12 @@ body {
     }
     .footer .a ,.footer a{
         font-size: 12px;
+    }
+}
+
+@media (max-width:500px) {
+    .main-head {
+        font-size: 23px;
     }
 }
 
@@ -1049,6 +1056,11 @@ body {
     .ava-features .col-12 {
         border-radius: 20px;
     }
+
+    .btn-req-nw{
+        font-size: 12px;
+    }
+
 }
 
 @media (max-width:500px) {
