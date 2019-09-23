@@ -989,7 +989,7 @@ body {
 .feature-content {
     width: 100%;
     display: flex;
-    margin-right: 12px;
+    /* margin-right: 12px; */
     flex-direction: column;
     text-align: center;
     padding: 10px;
@@ -1018,7 +1018,7 @@ body {
 
 @media (max-width:991px) {
     .ava-feature-right .feature-content h3 {
-        margin-right: 20px;
+        /* margin-right: 20px; */
     }
 
     .ava-features .col-12 {
